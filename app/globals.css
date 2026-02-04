@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Light mode color palette for Flow Payments */
+  --background: 0 0% 98%;
+  --foreground: 0 0% 15%;
+  --card: 0 0% 100%;
+  --card-foreground: 0 0% 15%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 0 0% 15%;
+  
+  /* Primary: Orange from Flow Payments brand */
+  --primary: 24 100% 55%;
+  --primary-foreground: 0 0% 100%;
+  
+  /* Secondary: Darker orange for accents */
+  --secondary: 0 0% 95%;
+  --secondary-foreground: 0 0% 15%;
+  
+  --muted: 0 0% 95%;
+  --muted-foreground: 0 0% 52%;
+  --accent: 24 100% 50%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 0 0% 89%;
+  --input: 0 0% 89%;
+  --ring: 24 100% 55%;
+  
+  --radius: 0.75rem;
+}
+
+.dark {
+  /* Dark mode color palette - default theme for Flow Payments */
+  --background: 0 0% 8%;
+  --foreground: 0 0% 98%;
+  --card: 0 0% 12%;
+  --card-foreground: 0 0% 98%;
+  --popover: 0 0% 12%;
+  --popover-foreground: 0 0% 98%;
+  
+  /* Primary: Orange from Flow Payments brand */
+  --primary: 24 100% 55%;
+  --primary-foreground: 0 0% 8%;
+  
+  --secondary: 0 0% 18%;
+  --secondary-foreground: 0 0% 98%;
+  
+  --muted: 0 0% 18%;
+  --muted-foreground: 0 0% 68%;
+  --accent: 24 100% 55%;
+  --accent-foreground: 0 0% 8%;
+  --destructive: 0 62% 30%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 0 0% 22%;
+  --input: 0 0% 22%;
+  --ring: 24 100% 55%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer utilities {
+  .gradient-orange {
+    background: linear-gradient(135deg, #FF7A18 0%, #FF8E3B 50%, #FF5A00 100%);
+  }
+  
+  .gradient-orange-subtle {
+    background: linear-gradient(135deg, rgba(255, 122, 24, 0.1) 0%, rgba(255, 142, 59, 0.05) 100%);
+  }
+  
+  .text-gradient-orange {
+    background: linear-gradient(135deg, #FF7A18 0%, #FF8E3B 50%, #FF5A00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+}
