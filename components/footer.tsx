@@ -72,19 +72,25 @@ export function Footer() {
 
         {/* Bottom bar */}
         <div className="pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-muted-foreground">
-            © 2025 XFlow Payments. Todos os direitos reservados.
+          <p className="text-sm text-muted-foreground text-center md:text-left">
+            © 2025 XFlow Payments. Todos os direitos reservados. CNPJ: 64.810.465/0001-90
           </p>
           
-          <div className="flex gap-6 text-sm text-muted-foreground">
-            <a href="https://app.xflowpayments.com.br/login-company" className="hover:text-[#FF7A18] transition-colors">
+          <div className="flex flex-wrap justify-center gap-4 md:gap-6 text-sm text-muted-foreground">
+            <a href="/termos" className="hover:text-[#FF7A18] transition-colors">
               Termos
             </a>
-            <a href="https://app.xflowpayments.com.br/login-company" className="hover:text-[#FF7A18] transition-colors">
+            <a href="/privacidade" className="hover:text-[#FF7A18] transition-colors">
               Privacidade
             </a>
-            <a href="https://app.xflowpayments.com.br/login-company" className="hover:text-[#FF7A18] transition-colors">
+            <a href="/cookies" className="hover:text-[#FF7A18] transition-colors">
               Cookies
+            </a>
+            <a href="/kyc" className="hover:text-[#FF7A18] transition-colors">
+              KYC
+            </a>
+            <a href="/pld" className="hover:text-[#FF7A18] transition-colors">
+              PLD
             </a>
           </div>
         </div>
