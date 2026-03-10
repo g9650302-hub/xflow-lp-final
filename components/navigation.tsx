@@ -101,7 +101,7 @@ export function Navigation() {
             
             <div className="w-px h-6 bg-border" />
 
-            <a href="https://app.xflowpayments.com.br/login-company">
+            <a href="https://app.xflowpayments.com/login-company">
               <Button
                 variant="ghost"
                 size="sm"
@@ -112,7 +112,7 @@ export function Navigation() {
             </a>
 
             <a
-              href="https://wa.me/5511918883276?text=Desejo%20abrir%20minha%20conta%20XFlow%20Payments"
+              href="https://wa.me/5512981871624?text=Desejo%20abrir%20minha%20conta%20XFlow%20Payments"
               target="_blank"
               rel="noopener noreferrer"
               onClick={trackPurchase}
@@ -174,7 +174,7 @@ export function Navigation() {
 
               <div className="h-px bg-border my-3" />
 
-              <a href="https://app.xflowpayments.com.br/login-company" className="w-full">
+              <a href="https://app.xflowpayments.com/login-company" className="w-full">
                 <Button
                   variant="outline"
                   className="w-full justify-center border-2 hover:border-[#FF7A18] hover:bg-[#FF7A18]/5 h-12 active:scale-[0.98]"
@@ -184,7 +184,7 @@ export function Navigation() {
               </a>
 
               <a
-                href="https://wa.me/5511918883276?text=Desejo%20abrir%20minha%20conta%20XFlow%20Payments"
+                href="https://wa.me/5512981871624?text=Desejo%20abrir%20minha%20conta%20XFlow%20Payments"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full mt-2"

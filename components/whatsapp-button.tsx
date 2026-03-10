@@ -10,7 +10,7 @@ export function WhatsAppButton() {
 
   return (
     <a
-      href="https://wa.me/5511918883276?text=Desejo%20abrir%20minha%20conta%20XFlow%20Payments"
+      href="https://wa.me/5512981871624?text=Desejo%20abrir%20minha%20conta%20XFlow%20Payments"
       target="_blank"
       rel="noopener noreferrer"
       className="fixed bottom-4 right-4 md:bottom-6 md:right-6 z-50 group"

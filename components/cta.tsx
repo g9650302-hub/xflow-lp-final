@@ -39,7 +39,7 @@ export function CTA() {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
               <a 
-                href="https://wa.me/5511918883276?text=Desejo%20abrir%20minha%20conta%20XFlow%20Payments"
+                href="https://wa.me/5512981871624?text=Desejo%20abrir%20minha%20conta%20XFlow%20Payments"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={trackPurchase}
@@ -54,7 +54,7 @@ export function CTA() {
                 </Button>
               </a>
               
-              <a href="https://app.xflowpayments.com.br/login-company">
+              <a href="https://app.xflowpayments.com/login-company">
                 <Button
                   size="lg"
                   variant="outline"

@@ -141,7 +141,7 @@ export function Hero() {
 
             <div className="flex flex-col sm:flex-row gap-3 md:gap-4 pt-2">
               <a 
-                href="https://wa.me/5511918883276?text=Desejo%20abrir%20minha%20conta%20XFlow%20Payments"
+                href="https://wa.me/5512981871624?text=Desejo%20abrir%20minha%20conta%20XFlow%20Payments"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto"
@@ -156,7 +156,7 @@ export function Hero() {
                 </Button>
               </a>
               
-              <a href="https://app.xflowpayments.com.br/login-company" className="w-full sm:w-auto">
+              <a href="https://app.xflowpayments.com/login-company" className="w-full sm:w-auto">
                 <Button
                   size="lg"
                   variant="outline"
