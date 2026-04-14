@@ -40,7 +40,7 @@ export function Footer() {
               <div className="text-sm font-semibold text-foreground mb-2">Fale conosco:</div>
               
               <a 
-                href="https://wa.me/5512981871624?text=Desejo%20abrir%20minha%20conta%20XFlow%20Payments"
+                href="https://wa.me/5511959099434?text=Desejo%20abrir%20minha%20conta%20XFlow%20Payments"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-sm text-muted-foreground hover:text-[#25D366] transition-colors group"
@@ -49,7 +49,7 @@ export function Footer() {
                 <div className="w-8 h-8 rounded-lg bg-[#25D366]/10 flex items-center justify-center group-hover:bg-[#25D366]/20 transition-colors">
                   <MessageCircle className="w-4 h-4 text-[#25D366]" />
                 </div>
-                <span>(12) 98187-1624</span>
+                <span>(11) 95909-9434</span>
               </a>
 
               <a 

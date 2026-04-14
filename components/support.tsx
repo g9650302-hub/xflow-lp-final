@@ -84,7 +84,7 @@ export function Support() {
                     Tire suas dúvidas, solicite uma demonstração ou abra sua conta diretamente pelo WhatsApp.
                   </p>
                   <a 
-                    href="https://wa.me/5512981871624?text=Desejo%20abrir%20minha%20conta%20XFlow%20Payments"
+                    href="https://wa.me/5511959099434?text=Desejo%20abrir%20minha%20conta%20XFlow%20Payments"
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={trackPurchase}
