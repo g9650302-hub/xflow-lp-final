@@ -1,6 +1,8 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
+  "buildCommand": "echo 'Static site build complete'",
+  "outputDirectory": ".",
   "headers": [
     {
       "source": "/(.*)",
